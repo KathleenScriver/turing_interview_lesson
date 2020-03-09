@@ -3,10 +3,8 @@ require './cat'
 
 cats = ['fluffy', 'kitty', 'sam', 'luna', 'meowface']
 
+
 binding.pry
-
-
-
 
 
 
