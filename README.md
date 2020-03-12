@@ -23,24 +23,40 @@ Let's say we have an array of cat names. Let's write out the skeleton of code us
 
 <br/>
 
-Let's have our code simply `puts` each name. 
+What do we even put inside our block though??
+1. Break down the problem by focusing on a single element of the array.
 
-- If we just want to `puts` something, we're not really concerned with the data after we `puts` it, we just want the side-effect of `puts`
+    - With our array of cat names, let's just take the first element and set it equal to a variable.
+`cat = "fluffy"`
 
-Can you walk through our array and explain what's happening in each iteration? Take 30 seconds and tell your partner, switch.
+2. Think about what we want to accomplish. 
+
+    - Let's have our code simply `puts` each name of the cat name array. 
+
+    - What do we need to do to our single `cat` to accomplish this?
+
+<br/>
+
+**Great!** Whatever we did to achieve this for our single element, is exactly what we want to put in our block, since our enumerator works on each element of the array, one at a time.
+
 
 ---
 ## Using `#each`
 
 As you're learning and hopefully realizing, return values are extemely important in Ruby. We always want to know the return value of our method. 
 
+<br/>
+
 What is the return value of our `#each` method?
+
 <br/>
-<br/>
 
+If we just want to `puts` something, we're not really concerned with the data after we `puts` it, we just want the side-effect of `puts`
 
+Now, what if I _do_ care about the changes I'm making in the code block though?
+What if I want to change my data or accumulate my data? 
 
-Great! But what if I want to change my data or accumulate my data? How can I save the results of the block for each element?
+How can I save the results of the block for each element?
 
 <br/>
 <br/>
@@ -56,7 +72,11 @@ Great! But what if I want to change my data or accumulate my data? How can I sav
 
 <br/>
 
-*Example: I only want back the cat names that are 5 characters or shorter.*
+Can you walk through our array and explain what's happening in each iteration? Take 30 seconds and tell your partner, switch.
+
+<br/>
+
+*Practice*: Given my array of cat names, I only want back the cat names that are 5 characters or shorter.*
 
 <br/>
 
