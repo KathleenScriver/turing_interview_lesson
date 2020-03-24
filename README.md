@@ -3,7 +3,9 @@
 
 ## Objectives
 1. Review the parts of our enumerable
+
 1. Demonstrate using `#each` when we just want side effects
+
 1. Practice examples using `#each` when we want a changed array or accumulated data
 
 <br/>
@@ -55,6 +57,8 @@ So what would our final code look like to accomplish our goal of `puts` each cat
 <br/>
 <br/>
 
+*Practice:* I want to puts the length of each cat's name.
+
 <br/>
 
 
@@ -92,16 +96,19 @@ How can I save the results of the block for each element?
 
 <br/>
 
-Can you walk through our array and explain what's happening in each iteration? Take 30 seconds and tell your partner, switch.
+Breakout Rooms to practice! Remember to break down the problem for a single element and think about your accumulator (if needed). (5 min)
 
 <br/>
 
-*Practice*: Given my array of cat names, I only want back the cat names that are 5 characters or shorter.*
+*Practice*: Given my array of cat names, I only want back the cat names that are 5 characters or shorter.
 
 <br/>
 
+*Practice:* Given my array of cat names, I want to find the total number of characters of all the cat names.
 
-*What questions do you have?*
+<br/>
+
+**What questions do you have?**
 
 <br/>
 
