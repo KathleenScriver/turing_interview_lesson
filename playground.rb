@@ -3,6 +3,11 @@ require './cat'
 
 cats = ['fluffy', 'kitty', 'sam', 'luna', 'meowface']
 
+cats.each do |cat|
+    // code here
+end
+
+cat.length
 
 binding.pry
 

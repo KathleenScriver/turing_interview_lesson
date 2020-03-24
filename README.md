@@ -6,6 +6,11 @@
 1. Demonstrate using `#each` when we just want side effects
 1. Practice examples using `#each` when we want a changed array or accumulated data
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 ---
 ## The Parts - and simple use case
 
@@ -16,12 +21,21 @@ Let's say we have an array of cat names. Let's write out the skeleton of code us
 - What should we name the block variable?
 
 <br/>
+<br/>
+<br/>
+<br/>
 
 *When do we want to use `#each`?
+
+<br/>
+<br/>
+
 
 - Anytime we want to do something to **every** element of our array, we need to use an enumerable like `#each`.
 
 <br/>
+
+*Let's use an example. With my array of cat names, I want to `puts` each of the cat names.*
 
 What do we even put inside our block though??
 1. Break down the problem by focusing on a single element of the array.
@@ -29,15 +43,20 @@ What do we even put inside our block though??
     - With our array of cat names, let's just take the first element and set it equal to a variable.
 `cat = "fluffy"`
 
-2. Think about what we want to accomplish. 
+2. Think about what we want to accomplish with this single element. In this case, how can we `puts` the cat's name?  *Think about this to yourself for 10 seconds.*
 
-    - Let's have our code simply `puts` each name of the cat name array. 
-
-    - What do we need to do to our single `cat` to accomplish this?
 
 <br/>
 
 **Great!** Whatever we did to achieve this for our single element, is exactly what we want to put in our block, since our enumerator works on each element of the array, one at a time.
+
+So what would our final code look like to accomplish our goal of `puts` each cat's name?
+
+<br/>
+<br/>
+
+<br/>
+
 
 
 ---
@@ -47,11 +66,14 @@ As you're learning and hopefully realizing, return values are extemely important
 
 <br/>
 
-What is the return value of our `#each` method?
+What is the return value of our `#each` method? *Think to yourself for a few seconds.*
 
 <br/>
 
-If we just want to `puts` something, we're not really concerned with the data after we `puts` it, we just want the side-effect of `puts`
+If we just want to `puts` something, we're not really concerned with the data after we `puts` it, we just want the side-effect of `puts`.
+
+<br/>
+
 
 Now, what if I _do_ care about the changes I'm making in the code block though?
 What if I want to change my data or accumulate my data? 
@@ -59,8 +81,6 @@ What if I want to change my data or accumulate my data?
 How can I save the results of the block for each element?
 
 <br/>
-<br/>
-
 
 
 *Example: With my array of cat names, I want to capitalize each name. How do we do this?*
